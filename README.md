@@ -17,26 +17,6 @@ git clone https://github.com/wargs91/saleor-platform.git --recursive --jobs 3
 
 ## How to run it?
 
-### With Makefile
-We prepared a few `make` commands for you
-
-#### Bootstrap app
-```shell
-make
-```
-
-#### Run all services
-```shell
-make run
-```
-
-#### Run only backend services
-```shell
-make run-backend 
-```
-
-See [Makefile](Makefile) for all commands 
-
 ### With Docker steps
 
 1. We are using shared folders to enable live code reloading. Without this, Docker Compose will not start:
